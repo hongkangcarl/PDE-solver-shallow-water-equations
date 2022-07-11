@@ -1,5 +1,5 @@
 # PDE-solver-shallow-water-equations
-Numerical algorithms that solve shallow water PDEs on a 2D plane. This program uses the finite difference method. Shallow water equations are PDEs that describe the dynamics of waves on the water surface.
+Numerical algorithms that solve shallow water PDEs on a 2D plane. This program uses the finite difference method. Shallow water equations are PDEs that describe the dynamics of waves on the water surface. Below shows an example of the simulation, with no friction.
 
 https://user-images.githubusercontent.com/63879978/178305819-f8dfa42c-f4fb-4272-8cbd-c6d2550b7257.mp4
 
