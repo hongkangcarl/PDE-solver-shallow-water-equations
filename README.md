@@ -5,7 +5,7 @@ https://user-images.githubusercontent.com/63879978/178305819-f8dfa42c-f4fb-4272-
 
 ## Shallow water equations
 
-The shallow water PDEs are the special cases of the Navier-Stokes equations, whose vertical depth is much smaller than the horizontal scales. The simplest linearized shallow water equations (ignoring the Coriolis force) read
+The shallow water PDEs are the special cases of the Navier-Stokes equations, whose vertical depth is much smaller than the horizontal scales. The simplest linearized shallow water equations (ignoring the Coriolis force and dissipative forces) read
 
 $$
 \frac{\partial h}{\partial t} + H (\nabla \cdot \mathbf v) = 0
