@@ -15,5 +15,20 @@ $$
 \frac{\partial \mathbf v}{\partial t} = - g \nabla h - b\mathbf v
 $$
 
-## The finite difference method
+## Finite difference method
 
+The finite difference method discretizes the solution into a (in this case) 2D meshgrid $h(x, y) = h_{i,j}$. The spatial differential operations are approximated by local neighboring points
+
+$$
+\frac{\partial h}{\partial x} \approx \frac{h_{i+1, j} - h_{i-1, j}}{2\Delta x}
+$$
+
+$$
+\frac{\partial^2 h}{\partial x^2} \approx \frac{h_{i+1, j} + h_{i-1, j} - 2h_{i, j}}{\Delta x^2}
+$$
+
+In time, the solution is evolved using Euler's method:
+
+$$
+h(x, y, t+\Delta t) \approx h(x, y, t) + \frac{\partial h}{\partial t} \Delta t
+$$
