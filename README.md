@@ -15,6 +15,8 @@ $$
 \frac{\partial \mathbf v}{\partial t} = - g \nabla h - b\mathbf v
 $$
 
+where $g$ is the acceleration due to gravity, and $b$ is the friction coefficient.
+
 ## Finite difference method
 
 The finite difference method discretizes the solution into a (in this case) 2D meshgrid $h(x, y) = h_{i,j}$. The spatial differential operations are approximated by local neighboring points
